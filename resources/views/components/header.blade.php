@@ -8,7 +8,7 @@
                     <div class="top-logo-area">
                         <div class="logo text-md-center">
                             <a href="{{route('home')}}"><img src="{{asset('assets/images/logo/logo.png')}}" alt="logo"
-                                    style="width:40%"></a>
+                                    style="width:20%"></a>
                         </div>
                     </div>
                 </div>
@@ -59,6 +59,12 @@
                                 <span class="item-counter">3</span>
                             </a>
                         </div>
+            <!-- Fitur Dark Mode Toggle -->
+        <div class="header-right-items d-none d-md-block">
+             <a href="javascript:void(0);" id="theme-toggle" title="Toggle Dark Mode">
+                 <i class="icon-moon"></i>
+             </a>
+        </div>
 
                         <div class="header-right-items  d-none d-md-block">
                             @if(@$_COOKIE['ut'])

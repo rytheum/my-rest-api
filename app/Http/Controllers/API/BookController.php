@@ -92,6 +92,10 @@ class BookController extends Controller
             if ($request->get('_search')) {
                 $data['products'] = $data['products']->whereRaw('(LOWER(title) LIKE "%' . strtolower($request->get('_search')) . '%")');
             }
+            //brands
+            if ($request->get('_author')) {
+                $data['products'] = $data['products']->whereRaw('(LOWER(author) LIKE "%' . strtolower($request->get('_author')) . '%")');
+            }
             if ($request->get('_type')) {
                 $data['products'] = $data['products']->whereRaw('LOWER(type) = "' . strtolower($request->get('_type')) . '"');
             }

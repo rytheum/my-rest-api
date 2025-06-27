@@ -16,29 +16,24 @@
         </div>
 
         <div class="about-us-area section-space--ptb_120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="about-us-content_6 text-center">
-                            <h2>Jeje's&nbsp;&nbsp;World&nbsp;&nbsp;of<br>Books</h2>
-                            <p>
-                                <small>
-                                    Whether you're searching for a the latest bestsellers, timeless classics,
-                                    or hidden gems, our carefully curated collection has something for everyone.
-                                    Our passionate staff is dedicated to helping you find the perfect read,
-                                    and our cozy, welcoming environment invites you to linger
-                                    and explore. Join our community of book lovers and let us help you.
-                                    Visit us today and experience the joy of getting lost in a great book &#10084;
-                                </small>
-                            </p>
-                            <p class="mt-5">Find your window to the world! Or, even,
-                                <span class="text-color-primary">unlock hidden worlds, one page at a time!</span>
-                            </p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="about-us-content_6 text-center">
+                                <h2>Jose's&nbsp;&nbsp;Home&nbsp;&nbsp;of<br>Electronics</h2>
+                                <p>
+                                    <small>
+                                    Transform your living space with the perfect blend of technology and comfort. At Jose's Home of Electronics, we believe in making your home smarter, more entertaining, and truly connected. Browse our curated collection of high-quality home electronics, from essential gadgets to luxurious upgrades. We're here to help you find the ideal products to suit your lifestyle and enhance every moment at home. &#10084;
+                                    </small>
+                                </p>
+                                <p class="mt-5">Find your Electronics to the world! Or, even,
+                                    <span class="text-color-primary">unlock hidden worlds, one page at a time!</span>
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         <!-- Banner Video Area Start -->
         <div class="banner-video-area overflow-hidden">
@@ -46,7 +41,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-video-box">
-                            <img src="{{asset('assets/images/library.jpg')}}" alt="" width="962px" height="578">
+                            <img src="{{asset('assets/images/laptop.jpg')}}" alt="" width="962px" height="578">
                             <div class="video-icon">
                                 <a href="https://youtu.be/z8UUYS4bIfw" class="popup-youtube"><i
                                         class="linear-ic-play"></i></a>

@@ -91,7 +91,7 @@
 
                             <div class="product_meta mt-30">
                                 <div class="posted_in item_meta">
-                                    <span class="label">Author: </span>
+                                    <span class="label">Brand: </span>
                                     <span id="product-author" class="text-color-primary"></span>
                                 </div>
                                 <div class="tagged_as item_meta">
@@ -132,7 +132,7 @@
             </div>
         </div>
 
-    </div>
+  
 @endsection
 @section('addition_css')
 @endsection

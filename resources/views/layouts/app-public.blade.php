@@ -55,6 +55,27 @@
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="{{asset('pages/js/app.js')}}"></script>
         @yield('addition_script')
+
+         <!--toggle dark mode-->
+         <script>
+            console.log('Dark mode toggle script loaded');
+            document.addEventListener("DOMContentLoaded", function () {
+                const toggleBtn = document.getElementById('theme-toggle');
+                const htmlEl = document.documentElement;
+
+                // Apply saved theme on page load
+                if (localStorage.getItem('theme') === 'dark') {
+                    htmlEl.classList.add('dark');
+                }
+
+                toggleBtn?.addEventListener('click', function () {
+                    const isDark = htmlEl.classList.toggle('dark');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+
+                    this.innerHTML = isDark ? '<i class="icon-sun"></i>' : '<i class="icon-moon"></i>';
+                });
+            });
+        </script>
         <!--END-->
     </body>
 </html>

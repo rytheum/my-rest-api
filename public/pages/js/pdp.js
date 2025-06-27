@@ -26,6 +26,7 @@ function getDataByWindowUrlKey() {
                     " by " +
                     response.data.publisher
             );
+            
 
             // START -- note, unless you have these data in a database structure, here we are hardcoding them for display purposes
             // review
@@ -57,21 +58,17 @@ function getDataByWindowUrlKey() {
             }
             // tag
             let collectionOfTag = [
-                "Book",
-                "E-Book",
-                "Best Seller",
-                "Fiction",
-                "Education",
-                "Literature",
-                "Classics",
-                "Real Event",
-                "Young Adult",
-                "Religion",
-                "Health",
-                "Comic",
-                "Horror",
-                "Poem",
-                "Filmed",
+                "Phone",
+                "Wash Machine",
+                "Laptop",
+                "Headphone",
+                "Printer",
+                "TWS",
+                "TV",
+                "Speaker",
+                "USB Cable",
+                "Tab",
+                "Camera",
                 "In English",
                 "In Indonesian",
             ];

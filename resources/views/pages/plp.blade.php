@@ -10,23 +10,21 @@
                     <div class="col-lg-3 col-md-3 order-md-1 order-2  small-mt__40">
                         <div class="shop-widget widget-shop-publishers mt-3">
                             <div class="product-filter">
-                                <h6 class="mb-20">Type</h6>
-                                <select class="_filter form-select form-select-sm" name="_publisher" onchange="getData()">
+                                <h6 class="mb-20">Brand</h6>
+                                <select class="_filter form-select form-select-sm" name="_author" onchange="getData()">
                                     <option value="" selected>All</option>
-                                    <option value="putnam">Putnam</option>
-                                    <option value="harriman house">Harriman House</option>
-                                    <option value="balai pustaka">Balai Pustaka</option>
-                                    <option value="Lentera dipantara">Lentera Dipantara</option>
-                                    <option value="pan books">Pan Books</option>
-                                    <option value="firefly books">Firefly Books</option>
-                                    <option value="gramedia">Gramedia</option>
-                                    <option value="scholastic">Scholastic</option>
-                                    <option value="harper">Harper</option>
-                                    <option value="dk children">DK Children</option>
-                                    <option value="bentang pustaka">Bentang Pustaka</option>
-                                    <option value="gagas media">Gagas Media</option>
-                                    <option value="grasindo">Grasindo</option>
-                                    <option value="Marjin Kiri">Marjin Kiri</option>
+                                    <option value="Samsung">Samsung</option>
+                                    <option value="Infinix">Infinix</option>
+                                    <option value="Canon">Canon</option>
+                                    <option value="TCL">TCL</option>
+                                    <option value="JBL">JBL</option>
+                                    <option value="ASUS">ASUS</option>
+                                    <option value="Lenovo">Lenovo</option>
+                                    <option value="Apple">Apple</option>
+                                    <option value="logitech">Logitech</option>
+                                    <option value="TP-Link">TP-Link</option>
+                                    <option value="vention">Vention</option>
+                                    <option value="beko">Beko</option>
                                 </select>
                             </div>
                         </div>
@@ -62,22 +60,17 @@
                             <div class="product-filter">
                                 <h6 class="mb-20">Tags</h6>
                                 <div class="blog-tagcloud">
-                                    <a href="#" class="selected">Book</a>
-                                    <a href="#">E-Book</a>
-                                    <a href="#">Best Seller</a>
-                                    <a href="#">Fiction</a>
-                                    <a href="#">Education</a>
-                                    <a href="#">Literature</a>
-                                    <a href="#">Classics</a>
-                                    <a href="#">Real Event</a>
-                                    <a href="#">Young Adult</a>
-                                    <a href="#">Religion</a>
-                                    <a href="#">Health</a>
-                                    <a href="#">Comic</a>
-                                    <a href="#">Horror</a>
-                                    <a href="#">Poem</a>
-                                    <a href="#">Filmed</a>
-                                    <a href="#">Encyclopedia</a>
+                                    <a href="#" class="selected">Phone</a>
+                                    <a href="#">Wash Machine</a>
+                                    <a href="#">Laptop</a>
+                                    <a href="#">Headphone</a>
+                                    <a href="#">Printer</a>
+                                    <a href="#">TWS</a>
+                                    <a href="#">TV</a>
+                                    <a href="#">Speaker</a>
+                                    <a href="#">USB Cable</a>
+                                    <a href="#">Tab</a>
+                                    <a href="#">Camera</a>  
                                     <a href="#">In English</a>
                                     <a href="#">In Indonesian</a>
                                 </div>
@@ -132,7 +125,7 @@
                 </div>
 
             </div>
-        </div>
+        
         <!-- Product Area End -->
     </div>
 @endsection
