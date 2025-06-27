@@ -4556,7 +4556,7 @@ input[type=checkbox] {
   margin: 20px 0 15px;
 }
 .product-details-content .stock p {
-  color: #000000;
+  color: wheat;
 }
 .product-details-content .stock.in-stock p span {
   color: #3bc604;
@@ -7088,7 +7088,7 @@ h3.cart-page-title {
   text-align: center;
 }
 .quickview-quality .cart-plus-minus .qtybutton {
-  color: #333;
+  color: red;
   cursor: pointer;
   float: inherit;
   font-size: 14px;
@@ -7118,7 +7118,7 @@ h3.cart-page-title {
 .quickview-quality .cart-plus-minus input.cart-plus-minus-box {
   background: transparent none repeat scroll 0 0;
   border: medium none;
-  color: #262626;
+  color: red;
   font-size: 14px;
   height: 46px;
   line-height: 40px;
@@ -7186,7 +7186,7 @@ h3.cart-page-title {
   color: #666;
 }
 .product_meta .item_meta .label {
-  color: #000000;
+  color: red;
 }
 .product_meta .item_meta a:hover {
   color: #666;
