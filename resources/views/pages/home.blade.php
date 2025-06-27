@@ -41,11 +41,17 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="banner-video-box">
-                            <img src="{{asset('assets/images/laptop.jpg')}}" alt="" width="962px" height="578">
-                            <div class="video-icon">
-                                <a href="https://youtu.be/z8UUYS4bIfw" class="popup-youtube"><i
-                                        class="linear-ic-play"></i></a>
-                            </div>
+                        <iframe
+    width="100%"
+    height="578"
+    src="https://www.youtube.com/embed/Gg_ncsRWboo?autoplay=1&mute=1&loop=1&playlist=Gg_ncsRWboo&rel=0"
+    title="YouTube video"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    class="youtube-iframe-clean">
+</iframe>
+
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ function getData() {
                     `
             <div class="single-hero-slider-7" onclick="location.href='` +
                     baseUrl +
-                    `/book/` +
+                    `/product/` +
                     item.id +
                     `'">
                 <div class="container">
